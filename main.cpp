@@ -96,7 +96,7 @@
      //Wilda Aryanii
     //layar 2
      glColor3f(2,2,2);//WARNA BGIAN LAYAR
-     glVertex3f(-0.8f, 0.5f, -1.73f);// riweh k
+     glVertex3f(-0.8f, 0.5f, -1.73f);// riweh k n
      glVertex3f(0.8f, 0.5f, -1.73f);
      glVertex3f(0.8f, 3.2f, -1.73f);
      glVertex3f(-0.8f, 3.2f, -1.73f);
