@@ -23,9 +23,10 @@
         //Draws the 3D scene
     void drawScene() {
      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+     //glClearColor(1.0, 1.0, 1.0, 1.0);
      glMatrixMode(GL_MODELVIEW); // keep it like this
      glLoadIdentity();
-     glTranslatef(0.0f, 0.0f, -14.0f);
+     glTranslatef(-0.5f, -0.f, -14.0f);
      //Add ambient light
      GLfloat ambientColor[] = {0.2f, 0.2f, 0.2f, 1.0f}; //Color (0.2, 0.2, 0.2)
      glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambientColor);
@@ -96,12 +97,12 @@
      //Wilda Aryanii
     //layar 2
      glColor3f(2,2,2);//WARNA BGIAN LAYAR
-     glVertex3f(-0.8f, 0.5f, -1.73f);// riweh k n
+     glVertex3f(-0.8f, 0.5f, -1.73f);
      glVertex3f(0.8f, 0.5f, -1.73f);
      glVertex3f(0.8f, 3.2f, -1.73f);
      glVertex3f(-0.8f, 3.2f, -1.73f);
-   
-    
+
+
 
      glEnd(); // kalau mau hilangan tablet hapus ini
 
@@ -129,5 +130,6 @@
      update(0);
      glutMainLoop();
      return 0;
-     //assalamualaikum
+     //bisa
+
     }
